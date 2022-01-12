@@ -11,7 +11,7 @@ const {
     Routes
 } = require('discord-api-types/v9');
 
-const guildId = process.env.SERVER_ID || '924922730703355984'; // default is for my test server
+const guildId = process.env.SERVER_ID || '';
 const clientId = process.env.BOT_CLIENT_ID || '';
 const token = process.env.BOT_USER_TOKEN || '';
 
